@@ -21,7 +21,7 @@ Question 3:
 
 To start the MLflow UI:
 ```
-mlflow ui --backend-store-uri sqlite:mlflow.db
+mlflow ui --backend-store-uri sqlite:///mlflow.db
 ```
 
 Make the necessary alterations to the `train.py` script:
